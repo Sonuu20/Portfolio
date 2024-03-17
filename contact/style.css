@@ -1,0 +1,91 @@
+  .personal-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-list {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-list a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .contact-list a:hover {
+    color: #333;
+  } 
+
+   body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    height: auto; /* Makes the form fill the viewport height */
+    width: 100%;
+  }
+  
+  form {
+    background-color: #fdfafb;
+    padding: 40px;
+    border-radius: 5px;
+    width: 400px; /* Adjust width as needed */
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .btn {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  

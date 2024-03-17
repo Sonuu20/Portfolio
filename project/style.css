@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+
+html{
+   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body{
+  background: #f7f7f7;
+  font-family: 'Poppins', sans-serif;
+}
+.heading{
+  font-size: 2.5rem;
+  color: rgb(32, 32, 32);
+  font-weight: 800;
+  text-align: center;
+}
+.heading span{
+  color: rgb(115, 3, 167);
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.project-grid {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    max-width: 1200px;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .project-card img {
+    width: 400px;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .project-card p {
+    margin-top: 5px;
+  }
+  
+  .project-card a {
+    text-decoration: none;
+    color: #000;
+  }

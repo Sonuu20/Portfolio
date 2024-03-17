@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+body {
+    margin: 0;
+    padding: 2rem;
+    background: #f7f7f7;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1srem;
+    min-height: 300px;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 40px;
+  }
+
+  header span {
+    color: chocolate;
+  }
+
+  header h4 {
+    margin-top: 30px;
+  }
+  header .img {
+    padding: 50px;
+
+  }
+
+  .skills h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .skills .points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills div{
+    /* padding: 30px; */
+    display:inline-block;
+    justify-content:space-between;
+    align-items: center; 
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about, .skills, .interests {
+    margin-bottom: 2rem;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 0.5rem;
+  }
