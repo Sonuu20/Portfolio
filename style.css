@@ -2,23 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 
- 
- .personal-details{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+body {
+    margin: 0;
+    padding: 1rem;
+    background: #f7f7f7;
+    font-family: "Poppins", sans-serif;
   }
 
   nav  {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(118, 168, 183);
+    background-color: #598bb0;
 
   }
 
   .logo {
     padding: 10px;
-    color: #f7f7f7;
+    color: #fff;
   }
 
   nav ul {
@@ -29,92 +30,76 @@
 
   nav ul li a {
     margin-inline-end: 20px;
-    color: #f7f7f7;
+    color: #fffefe;
     text-decoration: none;
+    opacity: 0.8;
+  }
+
+  nav ul li a:hover {
+    opacity: 1;
   }
   
-  .contact-list {
+  header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1srem;
+    min-height: 300px;
+    align-items: center;
+  }
+  header h1 {
+    font-size: 40px;
+  }
 
+  header span {
+    color: chocolate;
+  }
+
+  header h4 {
+    margin-top: 30px;
+  }
+  header .img {
+    padding: 50px;
+
+  }
+
+  .skills h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+  }
+
+  .skills .points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .skills div{
+    /* padding: 30px; */
+    display:inline-block;
+    justify-content:space-between;
+    align-items: center; 
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  h1, h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about, .skills, .interests {
+    margin-bottom: 2rem;
+  }
+  
+  .skills ul {
     list-style: none;
     padding: 0;
-    margin: 0;
   }
   
-  .contact-list li {
-    margin-bottom: 10px;
-  }
-  
-  .contact-list a {
-    text-decoration: none;
-    color: #000;
-  }
-  
-  .contact-list a:hover {
-    color: #333;
-  } 
-
-   body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-  }
-
-  h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    align-items: center;
-    height: auto; /* Makes the form fill the viewport height */
-    width: 100%;
-  }
-  
-  form {
-    background-color: #fdfafb;
-    padding: 40px;
-    border-radius: 5px;
-    width: 400px; /* Adjust width as needed */
-  }
-  
-  input[type="text"],
-  input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    margin-bottom: 15px;
-  }
-  
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-
-  .btn {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
+  .skills li {
+    margin-bottom: 0.5rem;
   }
 
   .footer {

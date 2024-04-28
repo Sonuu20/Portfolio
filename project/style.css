@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
 
 html{
    overflow-x: hidden;
@@ -9,6 +11,31 @@ body{
   background: #f7f7f7;
   font-family: 'Poppins', sans-serif;
 }
+
+nav  {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(118, 168, 183);
+
+}
+
+.logo {
+  padding: 10px;
+  color: #f7f7f7;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+nav ul li a {
+  margin-inline-end: 20px;
+  color: #f7f7f7;
+  text-decoration: none;
+}
+
 .heading{
   font-size: 2.5rem;
   color: rgb(32, 32, 32);
@@ -59,3 +86,64 @@ body{
     text-decoration: none;
     color: #000;
   }
+
+  .footer {
+    position: relative;
+    background: #598bb0;
+    min-height: 60px;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 500;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  
